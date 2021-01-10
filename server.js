@@ -10,8 +10,8 @@ const items = require('./route/api/items')
 dotenv.config({ path: './config/config.env' })
 
 const app = express()
-const distDir = __dirname + '/dist/'
-app.use(express.static(distDir))
+// const distDir = __dirname + '/dist/'
+// app.use(express.static(distDir))
 
 //Bodyparser Middleware//
 app.use(bodyParser.json())
